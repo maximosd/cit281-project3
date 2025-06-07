@@ -1,0 +1,74 @@
+:root {
+    --uoGreen: #104735;
+    --uoGrass:#489D46;
+    --uoYellow: #E2E11B ;
+    --uoDarkGrey: #4D5859;
+    --uoLightGrey: #D8DCDA;
+}
+html {
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    width: 70%;
+    margin: 0 auto;
+    background: var(--uoLightGrey);
+    padding-bottom: 2%;
+}
+.homeHeader {
+    background: var(--uoGreen);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 2em;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.links a {
+    background: var(--uoDarkGrey);
+    border-radius: 20px;
+    padding: 0.5em 1.2em;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.links a:hover {
+    background: var(--uoGrass);
+    transform: scale(103%);
+    transition: .3s;
+}
+.links a:not(hover) {
+    transition: .2s;
+}
+.content {
+    margin-top: 2em;
+}
+h1 {
+    text-align: center;
+}
+.gitHubLink {
+    text-align: center;
+    margin-top: 1em;
+}
+.projectImage, .labImage {
+    width: 400px;
+    display: block;
+    margin: 1em auto 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.projectDescription, .labDescriptions {
+    width: 500px;
+    margin: 1em auto 1em auto;
+}
+.contentHeaders {
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--uoDarkGrey);
+    margin-top: 1em;
+}
