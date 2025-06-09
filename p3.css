@@ -23,11 +23,15 @@ body {
     font-size: 2em;
 }
 .links {
+    gap: 30px;
     display: flex;
     justify-content: center;
-    gap: 30px;
-    font-size: 1em;
-    margin-top: 20px;
+    margin: 20px auto 20px auto;
+    font-size: 1.25em;
+    padding-left: auto;
+    padding-right: auto;
+    width: 60vw;
+    min-width: 100px;
 }
 .links a {
     background: var(--uoDarkGrey);
@@ -36,6 +40,7 @@ body {
     text-decoration: none;
     color: white;
     display: inline-block;
+    min-width: 20px;
 }
 .links a:hover {
     background: var(--uoGrass);
@@ -46,7 +51,8 @@ body {
     transition: .2s;
 }
 .content {
-    margin-top: 2em;
+    margin: 2em auto 1em auto;
+    width: 69vw;
 }
 h1 {
     text-align: center;
@@ -56,14 +62,13 @@ h1 {
     margin-top: 1em;
 }
 .projectImage, .labImage {
-    width: 400px;
+    width: 30vw;
     display: block;
     margin: 1em auto 0 auto;
     border-radius: 10px;
-    border: 1px solid black;
 }
 .projectDescription, .labDescriptions {
-    width: 500px;
+    width: 30vw;
     margin: 1em auto 1em auto;
 }
 .contentHeaders {
